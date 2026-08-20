@@ -40,7 +40,7 @@ function showError(block, message) {
         return;
       }
   
-      block.innerHTML = `<div class="content-fragment" style="text-align:center;font-style:italic;">Content Fragment Selected: ${cfPath}</div>`;
+      block.innerHTML = `<div class="content-fragment" style="text-align:center;font-style:italic;">XXX Content Fragment Selected: ${cfPath}</div>`;
     } catch (error) {
       // eslint-disable-next-line no-console
       console.error('Content Fragment block error:', error);
